@@ -152,7 +152,7 @@ main {
 
 }
 .main_container {
-    width: 96%;
+    width: 95%;
     max-width: 1600px;
     margin: auto;
 }
@@ -191,13 +191,26 @@ main {
     font-size: 40px;
     line-height: 50px;
 }
+/*popular games*/
+.popular_games_wrapper {
+    margin-top: 20px;
+}
+.single_popular_game {
+    padding: 15px 0;
+}
+.single_popular_game img{
+    border-radius: 20px;
 
+}
 
 /*Media main*/
 @media (min-width: 576px) {
     .img_title_jumbo {
         width: 310px;
-    }       
+    }      
+    .single_popular_game {
+        padding: 15px 5px;
+    } 
 }
 @media (min-width: 768px) {
     .img_title_jumbo {
