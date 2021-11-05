@@ -158,7 +158,6 @@ main {
 }
 /*jumbotron*/
 .jumbotron{
-    background-image: url(../img/jumbo-bg.png);
     height: 600px;
     background-repeat: no-repeat;
     background-position: top;
@@ -166,18 +165,31 @@ main {
     position: relative;
     color: #fff;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 17px;
+}
+.jumbotron_1 {
+    background-image: url(../img/jumbo-bg.png);
+}
+.jumbotron_2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 .img_title_jumbo {
     width: 280px;
+}
+.img_title_jumbo img {
+
 }
 .jumbo_text {
     position: absolute;
     bottom: 50px;
 }
+.jumbo_description {
+    line-height: 25px;
+}
 .jumbo_description h2 {
-    margin: 20px 0;
+    margin: 25px 0;
     font-size: 40px;
+    line-height: 50px;
 }
 
 
@@ -190,7 +202,10 @@ main {
 @media (min-width: 768px) {
     .img_title_jumbo {
         width: 410px;
-    }  
+    }
+    .jumbotron.jumbotron_2 {
+        height: 650px;
+    }
 }
 @media (min-width: 992px) {
     .img_title_jumbo {
