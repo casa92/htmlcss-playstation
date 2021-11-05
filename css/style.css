@@ -1,0 +1,207 @@
+/*-----------COMMON-----------*/
+body {
+    font-family: Arial, sans-serif;
+    
+}
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    color: inherit;
+}
+/*buttons*/
+a.my_btn {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-left: -4px;
+    line-height: normal;
+    cursor: pointer;
+}
+.menu a.btn_login {
+    background-color: #363636;
+    color: #fff;
+}
+.btn_buy_now {
+    background-color: #cd3d0f;
+    color: #fff;
+    margin-top: 10px;
+}
+
+
+/*-----------HEADER-----------*/
+header {
+    font-family: Helvetica, arial, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 10;
+}
+/*sony logo*/
+.top_header {
+    background-color: black;
+    height: 35px;
+    position: relative;
+}
+.logo_header img {
+    height: 15px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: auto;
+}
+/*header nav*/
+.ms_container {
+    width: 99%;
+    margin: auto;
+}
+.bottom_header {
+    height: 70px;
+    line-height: 70px;
+}
+.chevron_down {
+    width: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+ul.menu {
+    list-style-type: none;
+}
+ul.menu li {
+    display: inline-block;
+    padding-right: 17px;
+}
+ul.menu a {
+    text-decoration: none;
+    color: #000000;
+}
+/*ps logo*/
+.ps_logo {
+   width: 55px;
+   display: inline-block;
+}
+.ps_logo img {
+    width: 100%;
+    vertical-align: top;
+}
+/*left menu*/
+.left_header_nav .header_lg_menu {
+    display: inline-block;
+}
+/*right menu*/
+.right_header_nav {
+    float: right;
+}
+.search_lens {
+    width: 25px;
+    cursor: pointer;
+}
+.search_lens img {
+    width: 100%;
+}
+.left_header_nav {
+    margin-right: -15px;
+}
+.left_header_nav .menu li:first-child{
+    margin-left: -16px;
+}
+.left_header_nav .menu li:last-child,
+.right_header_nav .menu li:last-child {
+    padding-right: 0;
+}
+/*burger menu*/
+.burger_menu {
+    margin-top: 20px;
+    padding: 10px 15px;
+    display: inline-block;
+    border: 1px solid #ddd8d89b;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.burger-1,
+.burger-2,
+.burger-3 {
+    background-color: #969696;
+    width: 25px;
+    height: 2px;
+}
+.burger-2 {
+    margin: 6px 0;
+}
+
+
+/*media header*/
+@media (min-width: 992px) {
+    .ps_logo img {
+        vertical-align: middle;
+    }
+}
+
+
+/*------------MAIN-----------*/
+main {
+    padding-top: 105px;
+
+}
+.main_container {
+    width: 96%;
+    max-width: 1600px;
+    margin: auto;
+}
+/*jumbotron*/
+.jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+.img_title_jumbo {
+    width: 280px;
+}
+.jumbo_text {
+    position: absolute;
+    bottom: 50px;
+}
+.jumbo_description h2 {
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+
+/*Media main*/
+@media (min-width: 576px) {
+    .img_title_jumbo {
+        width: 310px;
+    }       
+}
+@media (min-width: 768px) {
+    .img_title_jumbo {
+        width: 410px;
+    }  
+}
+@media (min-width: 992px) {
+    .img_title_jumbo {
+        width: 210px;
+    }  
+}
+@media (min-width: 1650px) {
+    .jumbotron {
+        height: 800px;
+    }
+}
+
+
+/*-----------FOOTER----------*/
