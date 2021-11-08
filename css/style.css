@@ -21,6 +21,7 @@ a.my_btn {
     margin-left: -4px;
     line-height: normal;
     cursor: pointer;
+    font-weight: bold;
 }
 .menu a.btn_login {
     background-color: #363636;
@@ -31,8 +32,24 @@ a.my_btn {
     color: #fff;
     margin-top: 10px;
 }
-
-
+.btn_more_info {
+    background-color: #2d64e6;
+    color: #fff;
+    margin-top: 15px;
+}
+.btn_single_product_ps4 {
+    background-color: #2d64e6;
+    color: #fff;
+    margin-top: 5px;
+}
+.btn_ps_plus {
+    color: #3c6fe5;
+    background-color: #d9dadc;
+}
+.btn_ps_now {
+    background-color: #f5f5f5;
+    color: #2e2e2e;
+}
 /*-----------HEADER-----------*/
 header {
     font-family: Helvetica, arial, sans-serif;
@@ -149,10 +166,9 @@ ul.menu a {
 /*------------MAIN-----------*/
 main {
     padding-top: 105px;
-
 }
 .main_container {
-    width: 95%;
+    width: 100%;
     max-width: 1600px;
     margin: auto;
 }
@@ -162,15 +178,17 @@ main {
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
+    /* background-position-x: 44%; */
     position: relative;
     color: #fff;
-    font-weight: 600;
-    font-size: 17px;
+    font-weight: 500;
+    font-size: 16px;
 }
 .jumbotron_1 {
     background-image: url(../img/jumbo-bg.png);
 }
 .jumbotron_2 {
+    height: 630px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 .img_title_jumbo {
@@ -191,6 +209,7 @@ main {
     font-size: 40px;
     line-height: 50px;
 }
+
 /*popular games*/
 .popular_games_wrapper {
     margin-top: 20px;
@@ -200,11 +219,129 @@ main {
 }
 .single_popular_game img{
     border-radius: 20px;
-
+}
+/*playstation 5*/
+.playstation_5 {
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+.playstation_5 .title {
+    text-align: center;
+    
+}
+.playstation_5 h3 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #2687d5;
+}
+.playstation_5 h1 {
+    font-size: 38px;
+    color: #000000;
+    padding-bottom: 15px;
+}
+.playstation_5 p {
+    font-size: 19px;
+    color: #a1a0a0;
+}
+.products_ps5 h2 {
+    font-size: 35px;
+    color: #000000;
+    padding-top: 45px;
+    padding-bottom: 15px;
+}
+.single_product_ps5 {
+    text-align: center;
+    opacity: 0.7;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
+.products_list_ps5 .active{
+    border-bottom: 2px solid #2687d5;
+}
+.active .single_product_ps5 {
+    opacity: 1;
+}
+/*new releases*/
+.new_releases {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.new_releases h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+.new_releases h4 {
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+.single_new_game {
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+.single_new_game img {
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+/*playstation 4*/
+.playstation_4 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+.playstation_4 h2 {
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.playstation_4 p {
+    font-size: 19px;
+    color: #a1a0a0;
+}
+/* .playstation_4 .container-fluid > p {
+    padding-bottom: 50px;
+} */
+.single_product_ps4 {
+    text-align: left;
+    padding-top: 50px;
+}
+.single_product_ps4 h3 {
+    font-size: 40px;
+}
+/*subscription ps pluse ps now*/
+.gray_back {
+    background-color: #bebcbb;
+}
+.subscription_single {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.subscription_single .logo {
+    width: 300px;
+    padding-bottom: 30px;
+
+}
+.subscription_single p {
+    padding-bottom: 20px;
+}
+/* .ps_plus_games {
+    height: 100%;
+    width: auto;
+} */
+.subscription .games {
+    width: 350px;
+}
+.dark_blue_back {
+    background-color: #161c3b;
+    color: #fff;
+}
 /*Media main*/
 @media (min-width: 576px) {
+    .main_container {
+        width: 95%;
+    }
     .img_title_jumbo {
         width: 310px;
     }      
@@ -219,11 +356,23 @@ main {
     .jumbotron.jumbotron_2 {
         height: 650px;
     }
+    .single_product_ps5 img {
+        padding: 5px 45px;
+    }
+    .subscription_single {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .subscription_single .logo {
+        width: 210px;
+        padding-top: 20px;
+    }
 }
 @media (min-width: 992px) {
     .img_title_jumbo {
         width: 210px;
-    }  
+    }
+   
 }
 @media (min-width: 1650px) {
     .jumbotron {
