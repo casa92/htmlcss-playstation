@@ -337,6 +337,37 @@ main {
     background-color: #161c3b;
     color: #fff;
 }
+/*discounts*/
+.discounts {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.discounts p {
+    font-size: 21px;
+    color: #a1a0a0;
+    padding-bottom: 30px;
+}
+.discounts h2 {
+    font-size: 40px;
+    color: #000000;
+    padding-bottom: 15px;
+}
+.discounts_single {
+    padding: 24px 0;
+}
+/*social*/
+.social {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.social h2 {
+    font-size: 30px;
+    padding: 60px 0;
+}
+.social_single {
+    padding-bottom: 45px;
+}
 /*Media main*/
 @media (min-width: 576px) {
     .main_container {
@@ -347,7 +378,10 @@ main {
     }      
     .single_popular_game {
         padding: 15px 5px;
-    } 
+    }
+    .social_single {
+        width: 120px;
+    }
 }
 @media (min-width: 768px) {
     .img_title_jumbo {
@@ -372,7 +406,16 @@ main {
     .img_title_jumbo {
         width: 210px;
     }
-   
+    .subscription_single .logo {
+        width: 340px;
+        padding-top: 20px;
+    }
+    .subscription .games {
+        width: 100%;
+    }
+    .subscription .games img {
+        height: 100%;
+    }
 }
 @media (min-width: 1650px) {
     .jumbotron {
@@ -382,3 +425,37 @@ main {
 
 
 /*-----------FOOTER----------*/
+footer {
+    background-color: #00439c;
+    color: #fff;
+}
+.footer_nav{
+    padding-top: 80px;
+    font-size: 15px;
+}
+.ps_logo_footer {
+    width: 90px;
+}
+.select_country {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    
+}
+.select_country i {
+    font-size: 19px;
+    vertical-align: sub;
+    margin-right: 12px;
+}
+.footer_nav .menu {
+    margin-bottom: 35px;
+}
+.footer_nav .menu ul {
+    list-style-type: none;
+}
+.footer_nav .menu li {
+    line-height: 32px;
+}
+.sie_logo {
+    width: 150px;
+    padding-bottom: 10px;
+}
